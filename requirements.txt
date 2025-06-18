@@ -1,0 +1,7 @@
+streamlit
+speechrecognition
+google-generativeai
+google-api-core
+gtts
+playsound
+pydub
