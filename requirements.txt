@@ -3,5 +3,5 @@ speechrecognition
 google-generativeai
 google-api-core
 gtts
-playsound
+playsound==1.2.2
 pydub
