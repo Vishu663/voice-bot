@@ -104,7 +104,7 @@ import os
 import playsound
 
 # 🧠 Replace with your own API Key
-genai.configure(api_key="AIzaSyCRI8gM1QvcvJhFIxZUBx620rIIx0-Kjb4")
+genai.configure(api_key=os.getenv("GENAI_API_KEY"))
 
 # Use Gemini 1.5 Pro for listing
 model = genai.GenerativeModel(model_name="models/gemini-1.5-pro")
